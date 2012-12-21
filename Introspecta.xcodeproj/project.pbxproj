@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0B3F94816825919000E5FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94716825919000E5FBD /* UIKit.framework */; };
-		F0B3F94A16825919000E5FBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94916825919000E5FBD /* Foundation.framework */; };
-		F0B3F94C16825919000E5FBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94B16825919000E5FBD /* CoreGraphics.framework */; };
-		F0B3F95216825919000E5FBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0B3F95016825919000E5FBD /* InfoPlist.strings */; };
-		F0B3F95416825919000E5FBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3F95316825919000E5FBD /* main.m */; };
-		F0B3F95816825919000E5FBD /* ADBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3F95716825919000E5FBD /* ADBAppDelegate.m */; };
-		F0B3F95A16825919000E5FBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B3F95916825919000E5FBD /* Default.png */; };
-		F0B3F95C16825919000E5FBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B3F95B16825919000E5FBD /* Default@2x.png */; };
-		F0B3F95E16825919000E5FBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B3F95D16825919000E5FBD /* Default-568h@2x.png */; };
+		F0762C841684F68F0047AA3E /* ISTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C821684F68F0047AA3E /* ISTestObject.m */; };
+		F0762C87168501820047AA3E /* ISChildTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C86168501820047AA3E /* ISChildTestObject.m */; };
+		F08EE648168517A8002877BC /* ISVar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE643168517A8002877BC /* ISVar.m */; };
+		F08EE649168517A8002877BC /* NSJSONSerialization+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */; };
+		F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE647168517A8002877BC /* NSObject+Introspecta.m */; };
 		F0B3F96616825919000E5FBD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F96516825919000E5FBD /* SenTestingKit.framework */; };
 		F0B3F96716825919000E5FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94716825919000E5FBD /* UIKit.framework */; };
 		F0B3F96816825919000E5FBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94916825919000E5FBD /* Foundation.framework */; };
@@ -23,30 +19,20 @@
 		F0B3F97316825919000E5FBD /* IntrospectaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3F97216825919000E5FBD /* IntrospectaTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F0B3F96916825919000E5FBD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0B3F93A16825919000E5FBD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0B3F94216825919000E5FBD;
-			remoteInfo = Introspecta;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F0B3F94316825919000E5FBD /* Introspecta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Introspecta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0762C811684F68F0047AA3E /* ISTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTestObject.h; sourceTree = "<group>"; };
+		F0762C821684F68F0047AA3E /* ISTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTestObject.m; sourceTree = "<group>"; };
+		F0762C85168501820047AA3E /* ISChildTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISChildTestObject.h; sourceTree = "<group>"; };
+		F0762C86168501820047AA3E /* ISChildTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISChildTestObject.m; sourceTree = "<group>"; };
+		F08EE642168517A8002877BC /* ISVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISVar.h; path = ../Src/ISVar.h; sourceTree = "<group>"; };
+		F08EE643168517A8002877BC /* ISVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISVar.m; path = ../Src/ISVar.m; sourceTree = "<group>"; };
+		F08EE644168517A8002877BC /* NSJSONSerialization+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Additions.h"; path = "../Src/NSJSONSerialization+Additions.h"; sourceTree = "<group>"; };
+		F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Additions.m"; path = "../Src/NSJSONSerialization+Additions.m"; sourceTree = "<group>"; };
+		F08EE646168517A8002877BC /* NSObject+Introspecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Introspecta.h"; path = "../Src/NSObject+Introspecta.h"; sourceTree = "<group>"; };
+		F08EE647168517A8002877BC /* NSObject+Introspecta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Introspecta.m"; path = "../Src/NSObject+Introspecta.m"; sourceTree = "<group>"; };
 		F0B3F94716825919000E5FBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0B3F94916825919000E5FBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0B3F94B16825919000E5FBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0B3F94F16825919000E5FBD /* Introspecta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Introspecta-Info.plist"; sourceTree = "<group>"; };
-		F0B3F95116825919000E5FBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0B3F95316825919000E5FBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0B3F95516825919000E5FBD /* Introspecta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Introspecta-Prefix.pch"; sourceTree = "<group>"; };
-		F0B3F95616825919000E5FBD /* ADBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBAppDelegate.h; sourceTree = "<group>"; };
-		F0B3F95716825919000E5FBD /* ADBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADBAppDelegate.m; sourceTree = "<group>"; };
-		F0B3F95916825919000E5FBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F0B3F95B16825919000E5FBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F0B3F95D16825919000E5FBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F0B3F96416825919000E5FBD /* IntrospectaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntrospectaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B3F96516825919000E5FBD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F0B3F96D16825919000E5FBD /* IntrospectaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntrospectaTests-Info.plist"; sourceTree = "<group>"; };
@@ -56,16 +42,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0B3F94016825919000E5FBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B3F94816825919000E5FBD /* UIKit.framework in Frameworks */,
-				F0B3F94A16825919000E5FBD /* Foundation.framework in Frameworks */,
-				F0B3F94C16825919000E5FBD /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0B3F96016825919000E5FBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,7 +58,7 @@
 		F0B3F93816825919000E5FBD = {
 			isa = PBXGroup;
 			children = (
-				F0B3F94D16825919000E5FBD /* Introspecta */,
+				F0B3F98416825B01000E5FBD /* Introspecta */,
 				F0B3F96B16825919000E5FBD /* IntrospectaTests */,
 				F0B3F94616825919000E5FBD /* Frameworks */,
 				F0B3F94416825919000E5FBD /* Products */,
@@ -92,7 +68,6 @@
 		F0B3F94416825919000E5FBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0B3F94316825919000E5FBD /* Introspecta.app */,
 				F0B3F96416825919000E5FBD /* IntrospectaTests.octest */,
 			);
 			name = Products;
@@ -109,36 +84,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0B3F94D16825919000E5FBD /* Introspecta */ = {
-			isa = PBXGroup;
-			children = (
-				F0B3F95616825919000E5FBD /* ADBAppDelegate.h */,
-				F0B3F95716825919000E5FBD /* ADBAppDelegate.m */,
-				F0B3F94E16825919000E5FBD /* Supporting Files */,
-			);
-			path = Introspecta;
-			sourceTree = "<group>";
-		};
-		F0B3F94E16825919000E5FBD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0B3F94F16825919000E5FBD /* Introspecta-Info.plist */,
-				F0B3F95016825919000E5FBD /* InfoPlist.strings */,
-				F0B3F95316825919000E5FBD /* main.m */,
-				F0B3F95516825919000E5FBD /* Introspecta-Prefix.pch */,
-				F0B3F95916825919000E5FBD /* Default.png */,
-				F0B3F95B16825919000E5FBD /* Default@2x.png */,
-				F0B3F95D16825919000E5FBD /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F0B3F96B16825919000E5FBD /* IntrospectaTests */ = {
 			isa = PBXGroup;
 			children = (
 				F0B3F97116825919000E5FBD /* IntrospectaTests.h */,
 				F0B3F97216825919000E5FBD /* IntrospectaTests.m */,
 				F0B3F96C16825919000E5FBD /* Supporting Files */,
+				F0762C811684F68F0047AA3E /* ISTestObject.h */,
+				F0762C821684F68F0047AA3E /* ISTestObject.m */,
+				F0762C85168501820047AA3E /* ISChildTestObject.h */,
+				F0762C86168501820047AA3E /* ISChildTestObject.m */,
 			);
 			path = IntrospectaTests;
 			sourceTree = "<group>";
@@ -152,26 +107,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F0B3F98416825B01000E5FBD /* Introspecta */ = {
+			isa = PBXGroup;
+			children = (
+				F08EE642168517A8002877BC /* ISVar.h */,
+				F08EE643168517A8002877BC /* ISVar.m */,
+				F08EE644168517A8002877BC /* NSJSONSerialization+Additions.h */,
+				F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */,
+				F08EE646168517A8002877BC /* NSObject+Introspecta.h */,
+				F08EE647168517A8002877BC /* NSObject+Introspecta.m */,
+			);
+			path = Introspecta;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0B3F94216825919000E5FBD /* Introspecta */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0B3F97616825919000E5FBD /* Build configuration list for PBXNativeTarget "Introspecta" */;
-			buildPhases = (
-				F0B3F93F16825919000E5FBD /* Sources */,
-				F0B3F94016825919000E5FBD /* Frameworks */,
-				F0B3F94116825919000E5FBD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Introspecta;
-			productName = Introspecta;
-			productReference = F0B3F94316825919000E5FBD /* Introspecta.app */;
-			productType = "com.apple.product-type.application";
-		};
 		F0B3F96316825919000E5FBD /* IntrospectaTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0B3F97916825919000E5FBD /* Build configuration list for PBXNativeTarget "IntrospectaTests" */;
@@ -184,7 +135,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				F0B3F96A16825919000E5FBD /* PBXTargetDependency */,
 			);
 			name = IntrospectaTests;
 			productName = IntrospectaTests;
@@ -213,24 +163,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0B3F94216825919000E5FBD /* Introspecta */,
 				F0B3F96316825919000E5FBD /* IntrospectaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F0B3F94116825919000E5FBD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B3F95216825919000E5FBD /* InfoPlist.strings in Resources */,
-				F0B3F95A16825919000E5FBD /* Default.png in Resources */,
-				F0B3F95C16825919000E5FBD /* Default@2x.png in Resources */,
-				F0B3F95E16825919000E5FBD /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0B3F96116825919000E5FBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,42 +196,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0B3F93F16825919000E5FBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B3F95416825919000E5FBD /* main.m in Sources */,
-				F0B3F95816825919000E5FBD /* ADBAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0B3F95F16825919000E5FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0B3F97316825919000E5FBD /* IntrospectaTests.m in Sources */,
+				F0762C841684F68F0047AA3E /* ISTestObject.m in Sources */,
+				F0762C87168501820047AA3E /* ISChildTestObject.m in Sources */,
+				F08EE648168517A8002877BC /* ISVar.m in Sources */,
+				F08EE649168517A8002877BC /* NSJSONSerialization+Additions.m in Sources */,
+				F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F0B3F96A16825919000E5FBD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0B3F94216825919000E5FBD /* Introspecta */;
-			targetProxy = F0B3F96916825919000E5FBD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F0B3F95016825919000E5FBD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0B3F95116825919000E5FBD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		F0B3F96E16825919000E5FBD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,32 +273,10 @@
 			};
 			name = Release;
 		};
-		F0B3F97716825919000E5FBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Introspecta/Introspecta-Prefix.pch";
-				INFOPLIST_FILE = "Introspecta/Introspecta-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		F0B3F97816825919000E5FBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Introspecta/Introspecta-Prefix.pch";
-				INFOPLIST_FILE = "Introspecta/Introspecta-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		F0B3F97A16825919000E5FBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Introspecta.app/Introspecta";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -388,7 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Introspecta/Introspecta-Prefix.pch";
 				INFOPLIST_FILE = "IntrospectaTests/IntrospectaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntrospectaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -397,7 +293,7 @@
 		F0B3F97B16825919000E5FBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Introspecta.app/Introspecta";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -405,7 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Introspecta/Introspecta-Prefix.pch";
 				INFOPLIST_FILE = "IntrospectaTests/IntrospectaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntrospectaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -423,14 +319,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0B3F97616825919000E5FBD /* Build configuration list for PBXNativeTarget "Introspecta" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0B3F97716825919000E5FBD /* Debug */,
-				F0B3F97816825919000E5FBD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		F0B3F97916825919000E5FBD /* Build configuration list for PBXNativeTarget "IntrospectaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -438,6 +326,7 @@
 				F0B3F97B16825919000E5FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
