@@ -1,5 +1,5 @@
 //
-//  NSJSONSerialization+Additions.h
+//  NSJSONSerialization+Introspecta.h
 //  Introspecta
 //
 //  Created by Alberto De Bortoli on 12/19/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSJSONSerialization (Additions)
+@interface NSJSONSerialization (Introspecta)
 
 + (id)objectFromJSONString:(NSString *)string;
 + (NSString *)JSONFromObject:(id)cocoaObject;

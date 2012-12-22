@@ -15,6 +15,14 @@
     [super setUp];
     
     self.childTestObject = [[ISChildTestObject alloc] init];
+    self.childTestObject.property1 = @"property1";
+    self.childTestObject.property2 = @42;
+    self.childTestObject.property3 = 42;
+    self.childTestObject.property4 = YES;
+    self.childTestObject.property5 = @"property5";
+    self.childTestObject.property6 = @108;
+    self.childTestObject.property7 = 108;
+    self.childTestObject.property8 = NO;
 }
 
 - (void)tearDown
@@ -22,6 +30,22 @@
     self.childTestObject = nil;
     
     [super tearDown];
+}
+
+- (void)testCocoaSerialization
+{
+    NSDictionary *test = [self.childTestObject cocoaSerialization];
+    NSDictionary *result = @{
+        @"_ivar1" : @"property1",
+        @"_ivar2" : @42,
+        @"_ivar3" : @42,
+        @"_ivar4" : @YES,
+        @"_ivar5" : @"property5",
+        @"_ivar6" : @108,
+        @"_ivar7" : @108,
+        @"_ivar8" : @NO
+    };
+    STAssertEqualObjects(test, result, @"objects should be equal");
 }
 
 - (void)testIVars

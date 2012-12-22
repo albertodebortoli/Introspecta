@@ -1,14 +1,14 @@
 //
-//  NSJSONSerialization+Additions.m
+//  NSJSONSerialization+Introspecta.m
 //  Introspecta
 //
 //  Created by Alberto De Bortoli on 12/19/12.
 //  Copyright (c) 2012 Alberto De Bortoli. All rights reserved.
 //
 
-#import "NSJSONSerialization+Additions.h"
+#import "NSJSONSerialization+Introspecta.h"
 
-@implementation NSJSONSerialization (Additions)
+@implementation NSJSONSerialization (Introspecta)
 
 + (id)objectFromJSONString:(NSString *)jsonString
 {

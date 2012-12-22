@@ -10,7 +10,7 @@
 		F0762C841684F68F0047AA3E /* ISTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C821684F68F0047AA3E /* ISTestObject.m */; };
 		F0762C87168501820047AA3E /* ISChildTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C86168501820047AA3E /* ISChildTestObject.m */; };
 		F08EE648168517A8002877BC /* ISVar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE643168517A8002877BC /* ISVar.m */; };
-		F08EE649168517A8002877BC /* NSJSONSerialization+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */; };
+		F08EE649168517A8002877BC /* NSJSONSerialization+Introspecta.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE645168517A8002877BC /* NSJSONSerialization+Introspecta.m */; };
 		F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE647168517A8002877BC /* NSObject+Introspecta.m */; };
 		F0B3F96616825919000E5FBD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F96516825919000E5FBD /* SenTestingKit.framework */; };
 		F0B3F96716825919000E5FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3F94716825919000E5FBD /* UIKit.framework */; };
@@ -26,8 +26,8 @@
 		F0762C86168501820047AA3E /* ISChildTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISChildTestObject.m; sourceTree = "<group>"; };
 		F08EE642168517A8002877BC /* ISVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISVar.h; path = ../Src/ISVar.h; sourceTree = "<group>"; };
 		F08EE643168517A8002877BC /* ISVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISVar.m; path = ../Src/ISVar.m; sourceTree = "<group>"; };
-		F08EE644168517A8002877BC /* NSJSONSerialization+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Additions.h"; path = "../Src/NSJSONSerialization+Additions.h"; sourceTree = "<group>"; };
-		F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Additions.m"; path = "../Src/NSJSONSerialization+Additions.m"; sourceTree = "<group>"; };
+		F08EE644168517A8002877BC /* NSJSONSerialization+Introspecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Introspecta.h"; path = "../Src/NSJSONSerialization+Introspecta.h"; sourceTree = "<group>"; };
+		F08EE645168517A8002877BC /* NSJSONSerialization+Introspecta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Introspecta.m"; path = "../Src/NSJSONSerialization+Introspecta.m"; sourceTree = "<group>"; };
 		F08EE646168517A8002877BC /* NSObject+Introspecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Introspecta.h"; path = "../Src/NSObject+Introspecta.h"; sourceTree = "<group>"; };
 		F08EE647168517A8002877BC /* NSObject+Introspecta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Introspecta.m"; path = "../Src/NSObject+Introspecta.m"; sourceTree = "<group>"; };
 		F0B3F94716825919000E5FBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -112,8 +112,8 @@
 			children = (
 				F08EE642168517A8002877BC /* ISVar.h */,
 				F08EE643168517A8002877BC /* ISVar.m */,
-				F08EE644168517A8002877BC /* NSJSONSerialization+Additions.h */,
-				F08EE645168517A8002877BC /* NSJSONSerialization+Additions.m */,
+				F08EE644168517A8002877BC /* NSJSONSerialization+Introspecta.h */,
+				F08EE645168517A8002877BC /* NSJSONSerialization+Introspecta.m */,
 				F08EE646168517A8002877BC /* NSObject+Introspecta.h */,
 				F08EE647168517A8002877BC /* NSObject+Introspecta.m */,
 			);
@@ -204,7 +204,7 @@
 				F0762C841684F68F0047AA3E /* ISTestObject.m in Sources */,
 				F0762C87168501820047AA3E /* ISChildTestObject.m in Sources */,
 				F08EE648168517A8002877BC /* ISVar.m in Sources */,
-				F08EE649168517A8002877BC /* NSJSONSerialization+Additions.m in Sources */,
+				F08EE649168517A8002877BC /* NSJSONSerialization+Introspecta.m in Sources */,
 				F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -40,9 +40,9 @@
         NSString *str_name = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
         NSString *str_type = [NSString stringWithCString:type encoding:NSUTF8StringEncoding];
         
-        ISVar *nxiVar = [ISVar iVarWithName:str_name type:str_type];
+        ISVar *iVar = [ISVar iVarWithName:str_name type:str_type];
         
-        [retVal addObject:nxiVar];
+        [retVal addObject:iVar];
     }
     
     free(vars);
@@ -73,9 +73,9 @@
         NSString *str_name = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
         NSString *str_attributes = [NSString stringWithCString:attributes encoding:NSUTF8StringEncoding];
         
-        ISVar *nxiVar = [ISVar iVarWithName:str_name type:str_attributes];
+        ISVar *isProperty = [ISVar iVarWithName:str_name type:str_attributes];
         
-        [retVal addObject:nxiVar];
+        [retVal addObject:isProperty];
     }
     
     free(properties);
