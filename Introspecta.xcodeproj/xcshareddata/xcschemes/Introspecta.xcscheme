@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0B3F96316825919000E5FBD"
-               BuildableName = "IntrospectaDemoTests.octest"
+               BuildableName = "IntrospectaTests.octest"
                BlueprintName = "IntrospectaTests"
                ReferencedContainer = "container:Introspecta.xcodeproj">
             </BuildableReference>

@@ -147,15 +147,4 @@
     return retVal;
 }
 
-- (void)fillWithObject:(id)object
-{
-    NSArray *iVars = [[object class] iVars];
-    for (ISVar *iVar in iVars) {
-        Ivar a = class_getInstanceVariable([object class], [iVar.name UTF8String]);
-        id value = [object valueForKey:iVar.name];
-        object_setIvar(self, a, value);
-        //object_setInstanceVariable(self, a, [value intValue]);
-    }
-}
-
 @end

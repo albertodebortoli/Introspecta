@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F0762C841684F68F0047AA3E /* ISTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C821684F68F0047AA3E /* ISTestObject.m */; };
 		F0762C87168501820047AA3E /* ISChildTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0762C86168501820047AA3E /* ISChildTestObject.m */; };
+		F0838ED616A2FE1D002862F2 /* ISVarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0838ED516A2FE1D002862F2 /* ISVarTests.m */; };
+		F0838ED916A30121002862F2 /* NSJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0838ED816A30121002862F2 /* NSJSONSerializationTests.m */; };
 		F08EE648168517A8002877BC /* ISVar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE643168517A8002877BC /* ISVar.m */; };
 		F08EE649168517A8002877BC /* NSJSONSerialization+Introspecta.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE645168517A8002877BC /* NSJSONSerialization+Introspecta.m */; };
 		F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EE647168517A8002877BC /* NSObject+Introspecta.m */; };
@@ -24,6 +26,10 @@
 		F0762C821684F68F0047AA3E /* ISTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTestObject.m; sourceTree = "<group>"; };
 		F0762C85168501820047AA3E /* ISChildTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISChildTestObject.h; sourceTree = "<group>"; };
 		F0762C86168501820047AA3E /* ISChildTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISChildTestObject.m; sourceTree = "<group>"; };
+		F0838ED416A2FE1D002862F2 /* ISVarTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISVarTests.h; sourceTree = "<group>"; };
+		F0838ED516A2FE1D002862F2 /* ISVarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISVarTests.m; sourceTree = "<group>"; };
+		F0838ED716A30121002862F2 /* NSJSONSerializationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSJSONSerializationTests.h; sourceTree = "<group>"; };
+		F0838ED816A30121002862F2 /* NSJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTests.m; sourceTree = "<group>"; };
 		F08EE642168517A8002877BC /* ISVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISVar.h; path = ../Src/ISVar.h; sourceTree = "<group>"; };
 		F08EE643168517A8002877BC /* ISVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISVar.m; path = ../Src/ISVar.m; sourceTree = "<group>"; };
 		F08EE644168517A8002877BC /* NSJSONSerialization+Introspecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Introspecta.h"; path = "../Src/NSJSONSerialization+Introspecta.h"; sourceTree = "<group>"; };
@@ -89,6 +95,10 @@
 			children = (
 				F0B3F97116825919000E5FBD /* IntrospectaTests.h */,
 				F0B3F97216825919000E5FBD /* IntrospectaTests.m */,
+				F0838ED416A2FE1D002862F2 /* ISVarTests.h */,
+				F0838ED516A2FE1D002862F2 /* ISVarTests.m */,
+				F0838ED716A30121002862F2 /* NSJSONSerializationTests.h */,
+				F0838ED816A30121002862F2 /* NSJSONSerializationTests.m */,
 				F0B3F96C16825919000E5FBD /* Supporting Files */,
 				F0762C811684F68F0047AA3E /* ISTestObject.h */,
 				F0762C821684F68F0047AA3E /* ISTestObject.m */,
@@ -131,6 +141,7 @@
 				F0B3F96016825919000E5FBD /* Frameworks */,
 				F0B3F96116825919000E5FBD /* Resources */,
 				F0B3F96216825919000E5FBD /* ShellScript */,
+				F0838E1E16A2F58C002862F2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -180,6 +191,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		F0838E1E16A2F58C002862F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Users/albertodebortoli/Repositories/Introspecta/XcodeCoverage/exportenv.sh;
+		};
 		F0B3F96216825919000E5FBD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +230,8 @@
 				F08EE648168517A8002877BC /* ISVar.m in Sources */,
 				F08EE649168517A8002877BC /* NSJSONSerialization+Introspecta.m in Sources */,
 				F08EE64A168517A8002877BC /* NSObject+Introspecta.m in Sources */,
+				F0838ED616A2FE1D002862F2 /* ISVarTests.m in Sources */,
+				F0838ED916A30121002862F2 /* NSJSONSerializationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +262,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -247,6 +275,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -263,11 +292,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
