@@ -202,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = /Users/albertodebortoli/Repositories/Introspecta/XcodeCoverage/exportenv.sh;
+			shellScript = "${PROJECT_DIR}/XcodeCoverage/exportenv.sh";
 		};
 		F0B3F96216825919000E5FBD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
